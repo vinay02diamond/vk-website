@@ -8,31 +8,32 @@ const projects = [
     name: "Shiva Foundation",
     year: "Sep 2024",
     align: "right",
-    image: "../../public/images/website-img-1.png",
+    image: "/vk-website/images/website-img-1.png",  // Corrected path
     link: "#",
   },
   {
     name: "Shot Mail Service",
-    year: " March 2024",
+    year: "March 2024",
     align: "left",
-    image: "../../public/images/website-img-2.png",
+    image: "/vk-website/images/website-img-2.png",
     link: "#",
   },
   {
     name: "Plantpure",
     year: "Nov 2023",
     align: "right",
-    image: "../../public/images/website-img-3.png",
+    image: "/vk-website/images/website-img-3.png",
     link: "#",
   },
   {
     name: "Interiority",
-    year: "May2024",
+    year: "May 2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: "/vk-website/images/website-img-4.jpg",
     link: "#",
   },
 ];
+
 
 const ProjectsMain = () => {
   return (
