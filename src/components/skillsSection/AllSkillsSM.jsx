@@ -11,6 +11,7 @@ import { SiMongodb } from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
 import { SiExpress } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { FaStripe } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -66,6 +67,10 @@ const skills = [
     {
       skill: "MySQL",
       icon: SiMysql,
+    },
+    {
+      skill: "StripePayment",
+      icon: FaStripe,
     },
 ];
 
