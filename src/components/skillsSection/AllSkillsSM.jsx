@@ -3,9 +3,14 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { SiPython } from "react-icons/si";
+import { SiDjango } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { DiNodejs } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
@@ -31,10 +36,6 @@ const skills = [
     icon: FaReact,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
-  },
-  {
     skill: "NextJS",
     icon: SiNextdotjs,
   },
@@ -42,6 +43,30 @@ const skills = [
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
   },
+   {
+      skill: "Python",
+      icon: SiPython,
+    },
+    {
+      skill: "Django",
+      icon: SiDjango,
+    },
+    {
+      skill: "MongoDb",
+      icon: SiMongodb,
+    },
+    {
+      skill: "NodeJS",
+      icon:  DiNodejs,
+    },
+    {
+      skill: "ExpressJS",
+      icon: SiExpress,
+    },
+    {
+      skill: "MySQL",
+      icon: SiMysql,
+    },
 ];
 
 const AllSkillsSM = () => {
